@@ -1,0 +1,5 @@
+com\bcp\training\expenses\Expense$PaymentMethod.class
+com\bcp\training\expenses\ExpenseValidator.class
+com\bcp\training\expenses\Expense.class
+com\bcp\training\expenses\ExpenseResource.class
+com\bcp\training\expenses\ExpenseConfiguration.class
