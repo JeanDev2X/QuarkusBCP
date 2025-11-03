@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="test-mock" />
         <module name="schedule" />
-        <module name="test-devservices" />
         <module name="session" />
-        <module name="test-unit" />
         <module name="speaker" />
       </profile>
     </annotationProcessing>

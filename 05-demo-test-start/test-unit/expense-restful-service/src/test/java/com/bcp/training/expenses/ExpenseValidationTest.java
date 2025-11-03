@@ -2,16 +2,20 @@ package com.bcp.training.expenses;
 
 import java.math.BigDecimal;
 
+import io.quarkus.test.junit.QuarkusTest;
+import jakarta.inject.Inject;
 import org.junit.jupiter.api.Test;
 import com.bcp.training.expenses.Expense.PaymentMethod;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-
+@QuarkusTest
 public class ExpenseValidationTest {
 
+    @Inject
     ExpenseConfiguration config;
 
+    @Inject
     ExpenseValidator validator;
 
     @Test
